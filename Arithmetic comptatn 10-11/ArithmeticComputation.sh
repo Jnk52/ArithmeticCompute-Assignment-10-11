@@ -26,3 +26,6 @@ echo ${ArithOpsArr[@]}
 
 sortInDesc=`printf "%s\n" ${ArithOpsArr[@]} | sort -nr`
 echo $sortInDesc
+sortInAsc=`printf "%s\n" ${ArithOpsArr[@]} | sort -n`
+
+echo $sortInAsc
