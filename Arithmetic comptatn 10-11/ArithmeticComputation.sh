@@ -16,3 +16,10 @@ echo "Ans1=$compute1"
 echo "Ans2=$compute2"
 echo "Ans3=$compute3"
 echo "Ans4=$compute4"
+count=0
+for i in ${!ArithOpsDict[@]}
+do
+	ArithOpsArr[count++]=${ArithOpsDict[$i]}
+done
+
+echo ${ArithOpsArr[@]}
