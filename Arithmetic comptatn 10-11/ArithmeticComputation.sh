@@ -11,3 +11,8 @@ compute3=$(($c + $a / b))
 echo compute3
 compute4=$(($a%$b+$c))
 echo compute4
+
+echo "Ans1=$compute1"
+echo "Ans2=$compute2"
+echo "Ans3=$compute3"
+echo "Ans4=$compute4"
