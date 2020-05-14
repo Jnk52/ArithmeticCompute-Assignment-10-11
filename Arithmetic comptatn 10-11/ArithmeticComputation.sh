@@ -23,3 +23,6 @@ do
 done
 
 echo ${ArithOpsArr[@]}
+
+sortInDesc=`printf "%s\n" ${ArithOpsArr[@]} | sort -nr`
+echo $sortInDesc
